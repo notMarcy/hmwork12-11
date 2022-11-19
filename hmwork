@@ -1,0 +1,5 @@
+let fn = (arr) => Number(String(arr[0]).split('').reduce((sum, el) => sum + el**(String(arr[0]).length),0)) == arr[0];
+
+console.log(fn([7]));
+console.log(fn([371]));
+console.log(fn([1652]))
